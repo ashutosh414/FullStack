@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Register For tag</title>
+  </head>
+  <body>
+    <!-- use GET, NOT POST -->
+    <!-- div=division it is used for a bock of code -->
+    <div>
+      <form method="get">
+        <!-- span is used to for a specific line to create new style or funtionality -->
+        <span> Name:</span> <input type="text" name="fname" /><br />
+        Last Name: <input type="text" name="lname" /><br />
+        Email: <input type="email" required name="email" /><br />
+        Password: <input type="password" min="5" name="password" /><br />
+        Birthday: <input type="date" name="bbirthday" /><br />
+        Gender:<br />
+        <input type="radio" name="gender" value="Male" />Male
+        <input type="radio" name="gender" value="Female" />Female
+        <input type="radio" name="gender" value="Other" />Other
+        <br />
+
+        Pets:<br />
+        <input type="checkbox" name="Cat" />Cat
+        <input type="checkbox" name="Dog" />Dog
+        <input type="checkbox" name="Other" />Other
+        <br />
+        Cars:<br />
+        <select name="Cars" multiple>
+          <option value="volvo">Volvo</option>
+          <option value="Audi">Audi</option>
+          <option value="Maruti">Maruti</option>
+        </select>
+        <hr />
+
+        <input type="submit" value="Register" />
+        <input type="reset" />
+      </form>
+    </div>
+  </body>
+</html>
+
+http://127.0.0.1:3000/html/tag3.html?fname=asd & lname=asd &
+email=asfsfert3%40hh.c & password=asfsafsafgsa & bbirthday=2023-09-11 &
+gender=Male & Cat=on&Dog=on&Other=on & Cars=volvo&Cars=Audi&Cars=Maruti

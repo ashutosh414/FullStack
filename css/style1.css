@@ -1,0 +1,39 @@
+/* selector{
+    Property:value;
+
+} */
+*{
+    text-align: right;
+}
+
+body{background-image: url('../picture/pic1.jpg');
+background-size: cover;
+}
+
+h2,p:hover
+{ color:#ECF9A9;
+    text-align: center;
+     border: 5px solid #A9F187; cursor: pointer;}
+
+p{color: aqua;}
+
+h6{color: blueviolet;}
+
+p{color: pink;}
+p{color:black;}
+
+.webtext{
+  text-align: center;
+   border: 5px dashed #0bc5de;
+   cursor: pointer;
+}
+.hello{
+    color: red;
+}
+
+#div1{
+    background-color: rgba(0, 0, 255, 0.2);
+}
+#div2{
+    background-color: rgba(0, 255, 0, 0.1);
+}
