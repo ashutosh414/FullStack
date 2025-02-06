@@ -1,2 +1,2 @@
 # FullStack
-t is about learning HML, CSS, JavaScript
+t is about learning HML, CSS, JavaScript and more...
